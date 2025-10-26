@@ -1,0 +1,20 @@
+pip3.12 list
+
+pip show numpy
+
+
+pip uninstall numpy
+
+
+pip install numpy 
+
+// pour changer enverenement 
+
+source .venv/bin/activate
+
+
+Pip freeze >> requirements.txt
+
+// si je veux install la meme chose (il suffit de appeler sur cette commande)
+
+pip install -r requirements.txt
